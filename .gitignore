@@ -1,0 +1,24 @@
+# VS generated folder
+src/.vs/
+src/.vscode/
+**/*.user
+
+# packages
+/packages/
+**/packages/*
+!**/packages/repositories.config
+
+# Build/tooling output folders
+**/obj/**/*.*
+**/bin/**/*.*
+
+# MSBuild command line output
+**/msbuild.err
+**/msbuild.log
+**/msbuild.wrn
+
+# Diff temp files
+*.orig
+
+# Intellij IDEA generated folder
+.idea/
